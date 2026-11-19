@@ -1,0 +1,718 @@
+[
+  {
+    "id": "task-01",
+    "title": "Barbell Squats & Quad Hypertrophy",
+    "description": "5x5 back squats @ 100kg, followed by Romanian deadlifts 4x10 and walking lunges with dumbbells.",
+    "category": "Strength",
+    "priority": "High",
+    "status": "Completed",
+    "dueDate": "2026-11-17",
+    "durationMinutes": 60,
+    "targetCalories": 450,
+    "createdAt": "2026-11-15T08:30:00.000Z",
+    "updatedAt": "2026-11-17T10:15:00.000Z",
+    "activityTimeline": [
+      {
+        "id": "act-01-1",
+        "taskId": "task-01",
+        "type": "CREATED",
+        "timestamp": "2026-11-15T08:30:00.000Z",
+        "message": "Workout plan created"
+      },
+      {
+        "id": "act-01-2",
+        "taskId": "task-01",
+        "type": "STATUS_CHANGED",
+        "fromStatus": "Todo",
+        "toStatus": "In Progress",
+        "timestamp": "2026-11-17T09:00:00.000Z",
+        "message": "Started heavy leg day session"
+      },
+      {
+        "id": "act-01-3",
+        "taskId": "task-01",
+        "type": "STATUS_CHANGED",
+        "fromStatus": "In Progress",
+        "toStatus": "Completed",
+        "timestamp": "2026-11-17T10:15:00.000Z",
+        "message": "Hit target reps and finished cool-down"
+      }
+    ]
+  },
+  {
+    "id": "task-02",
+    "title": "5km Morning Interval Run",
+    "description": "Warm-up 1km, 6x 400m fast intervals with 90s jog recovery, cool down 1km.",
+    "category": "Cardio",
+    "priority": "High",
+    "status": "Completed",
+    "dueDate": "2026-11-18",
+    "durationMinutes": 35,
+    "targetCalories": 380,
+    "createdAt": "2026-11-16T07:00:00.000Z",
+    "updatedAt": "2026-11-18T07:45:00.000Z",
+    "activityTimeline": [
+      {
+        "id": "act-02-1",
+        "taskId": "task-02",
+        "type": "CREATED",
+        "timestamp": "2026-11-16T07:00:00.000Z",
+        "message": "Interval run scheduled"
+      },
+      {
+        "id": "act-02-2",
+        "taskId": "task-02",
+        "type": "STATUS_CHANGED",
+        "fromStatus": "Todo",
+        "toStatus": "Completed",
+        "timestamp": "2026-11-18T07:45:00.000Z",
+        "message": "Completed 5.2km at 4:45 min/km pace"
+      }
+    ]
+  },
+  {
+    "id": "task-03",
+    "title": "Sunday High-Protein Meal Prep",
+    "description": "Cook grilled chicken breast, baked salmon, sweet potatoes, brown rice, and steamed broccoli for 4 days.",
+    "category": "Nutrition",
+    "priority": "Medium",
+    "status": "Completed",
+    "dueDate": "2026-11-16",
+    "durationMinutes": 90,
+    "targetCalories": 0,
+    "createdAt": "2026-11-15T12:00:00.000Z",
+    "updatedAt": "2026-11-16T14:30:00.000Z",
+    "activityTimeline": [
+      {
+        "id": "act-03-1",
+        "taskId": "task-03",
+        "type": "CREATED",
+        "timestamp": "2026-11-15T12:00:00.000Z",
+        "message": "Meal prep scheduled"
+      },
+      {
+        "id": "act-03-2",
+        "taskId": "task-03",
+        "type": "STATUS_CHANGED",
+        "fromStatus": "Todo",
+        "toStatus": "Completed",
+        "timestamp": "2026-11-16T14:30:00.000Z",
+        "message": "Packaged 8 glass containers into fridge"
+      }
+    ]
+  },
+  {
+    "id": "task-04",
+    "title": "Morning Vinyasa Flow & Hip Openers",
+    "description": "25-minute energizing flow focusing on warrior sequences, pigeon pose, and thoracic mobility.",
+    "category": "Yoga",
+    "priority": "Low",
+    "status": "Completed",
+    "dueDate": "2026-11-19",
+    "durationMinutes": 25,
+    "targetCalories": 120,
+    "createdAt": "2026-11-18T21:00:00.000Z",
+    "updatedAt": "2026-11-19T07:30:00.000Z",
+    "activityTimeline": [
+      {
+        "id": "act-04-1",
+        "taskId": "task-04",
+        "type": "CREATED",
+        "timestamp": "2026-11-18T21:00:00.000Z",
+        "message": "Morning flow routine set"
+      },
+      {
+        "id": "act-04-2",
+        "taskId": "task-04",
+        "type": "STATUS_CHANGED",
+        "fromStatus": "Todo",
+        "toStatus": "Completed",
+        "timestamp": "2026-11-19T07:30:00.000Z",
+        "message": "Feeling loosened and relaxed"
+      }
+    ]
+  },
+  {
+    "id": "task-05",
+    "title": "Hydration Target: 3.5 Liters Water",
+    "description": "Drink 1L upon waking with pinch of pink salt, 1.5L throughout work, 1L during and after training.",
+    "category": "Nutrition",
+    "priority": "Medium",
+    "status": "In Progress",
+    "dueDate": "2026-11-19",
+    "durationMinutes": 10,
+    "targetCalories": 0,
+    "createdAt": "2026-11-19T06:00:00.000Z",
+    "updatedAt": "2026-11-19T13:00:00.000Z",
+    "activityTimeline": [
+      {
+        "id": "act-05-1",
+        "taskId": "task-05",
+        "type": "CREATED",
+        "timestamp": "2026-11-19T06:00:00.000Z",
+        "message": "Daily hydration logged"
+      },
+      {
+        "id": "act-05-2",
+        "taskId": "task-05",
+        "type": "STATUS_CHANGED",
+        "fromStatus": "Todo",
+        "toStatus": "In Progress",
+        "timestamp": "2026-11-19T11:00:00.000Z",
+        "message": "2.2L consumed by mid-afternoon"
+      }
+    ]
+  },
+  {
+    "id": "task-06",
+    "title": "Upper Body Push: Bench & Overhead Press",
+    "description": "Flat bench press 4x8, Standing military press 4x8, Incline DB press 3x12, Lateral raises 4x15, Tricep pushdowns 3x15.",
+    "category": "Strength",
+    "priority": "High",
+    "status": "In Progress",
+    "dueDate": "2026-11-19",
+    "durationMinutes": 65,
+    "targetCalories": 420,
+    "createdAt": "2026-11-18T18:00:00.000Z",
+    "updatedAt": "2026-11-19T16:30:00.000Z",
+    "activityTimeline": [
+      {
+        "id": "act-06-1",
+        "taskId": "task-06",
+        "type": "CREATED",
+        "timestamp": "2026-11-18T18:00:00.000Z",
+        "message": "Scheduled push workout"
+      },
+      {
+        "id": "act-06-2",
+        "taskId": "task-06",
+        "type": "STATUS_CHANGED",
+        "fromStatus": "Todo",
+        "toStatus": "In Progress",
+        "timestamp": "2026-11-19T16:30:00.000Z",
+        "message": "Warming up with rotator cuff work"
+      }
+    ]
+  },
+  {
+    "id": "task-07",
+    "title": "Track Daily Macros: 160g Protein Goal",
+    "description": "Log breakfast, lunch, post-workout shake, and dinner into tracker. Ensure whey protein and lean meats reach 160g.",
+    "category": "Nutrition",
+    "priority": "Medium",
+    "status": "In Progress",
+    "dueDate": "2026-11-19",
+    "durationMinutes": 15,
+    "targetCalories": 2400,
+    "createdAt": "2026-11-19T07:00:00.000Z",
+    "updatedAt": "2026-11-19T12:00:00.000Z",
+    "activityTimeline": [
+      {
+        "id": "act-07-1",
+        "taskId": "task-07",
+        "type": "CREATED",
+        "timestamp": "2026-11-19T07:00:00.000Z",
+        "message": "Macro tracking initialized"
+      }
+    ]
+  },
+  {
+    "id": "task-08",
+    "title": "Full-Body Foam Rolling & Percussion Massage",
+    "description": "Spend 10 mins on quads, IT band, lats, and upper traps. Use percussion gun on calves and glutes.",
+    "category": "Recovery",
+    "priority": "Low",
+    "status": "Todo",
+    "dueDate": "2026-11-19",
+    "durationMinutes": 20,
+    "targetCalories": 40,
+    "createdAt": "2026-11-19T08:00:00.000Z",
+    "updatedAt": "2026-11-19T08:00:00.000Z",
+    "activityTimeline": [
+      {
+        "id": "act-08-1",
+        "taskId": "task-08",
+        "type": "CREATED",
+        "timestamp": "2026-11-19T08:00:00.000Z",
+        "message": "Evening recovery session scheduled"
+      }
+    ]
+  },
+  {
+    "id": "task-09",
+    "title": "Core & Lumbar Spine Stability Circuit",
+    "description": "3 rounds of 60s plank, 15 bird-dogs each side, 20 deadbugs, and 15 side plank hip dips.",
+    "category": "Strength",
+    "priority": "Medium",
+    "status": "Todo",
+    "dueDate": "2026-11-16",
+    "durationMinutes": 20,
+    "targetCalories": 140,
+    "createdAt": "2026-11-14T10:00:00.000Z",
+    "updatedAt": "2026-11-14T10:00:00.000Z",
+    "activityTimeline": [
+      {
+        "id": "act-09-1",
+        "taskId": "task-09",
+        "type": "CREATED",
+        "timestamp": "2026-11-14T10:00:00.000Z",
+        "message": "Core session set"
+      }
+    ]
+  },
+  {
+    "id": "task-10",
+    "title": "Buy Creatine Monohydrate & Omega-3 Refills",
+    "description": "Restock Creapure micronized powder and triple strength wild Alaskan fish oil capsules.",
+    "category": "Other",
+    "priority": "High",
+    "status": "Todo",
+    "dueDate": "2026-11-17",
+    "durationMinutes": 15,
+    "targetCalories": 0,
+    "createdAt": "2026-11-14T14:00:00.000Z",
+    "updatedAt": "2026-11-14T14:00:00.000Z",
+    "activityTimeline": [
+      {
+        "id": "act-10-1",
+        "taskId": "task-10",
+        "type": "CREATED",
+        "timestamp": "2026-11-14T14:00:00.000Z",
+        "message": "Supplement restocking errand added"
+      }
+    ]
+  },
+  {
+    "id": "task-11",
+    "title": "45-Minute Zone-2 Cycling Session",
+    "description": "Keep heart rate steady between 130-142 BPM on the smart trainer. Focus on smooth pedal cadence (88-92 RPM).",
+    "category": "Cardio",
+    "priority": "Medium",
+    "status": "Todo",
+    "dueDate": "2026-11-18",
+    "durationMinutes": 45,
+    "targetCalories": 360,
+    "createdAt": "2026-11-15T16:00:00.000Z",
+    "updatedAt": "2026-11-15T16:00:00.000Z",
+    "activityTimeline": [
+      {
+        "id": "act-11-1",
+        "taskId": "task-11",
+        "type": "CREATED",
+        "timestamp": "2026-11-15T16:00:00.000Z",
+        "message": "Zone 2 aerobic base ride scheduled"
+      }
+    ]
+  },
+  {
+    "id": "task-12",
+    "title": "Pull Day: Deadlifts & Weighted Pull-ups",
+    "description": "Conventional deadlifts 4x5, Neutral grip pull-ups 4x6 (with 10kg belt), Barbell chest supported row 4x10, Incline bicep curls 3x12.",
+    "category": "Strength",
+    "priority": "High",
+    "status": "Todo",
+    "dueDate": "2026-11-20",
+    "durationMinutes": 70,
+    "targetCalories": 500,
+    "createdAt": "2026-11-18T09:00:00.000Z",
+    "updatedAt": "2026-11-18T09:00:00.000Z",
+    "activityTimeline": [
+      {
+        "id": "act-12-1",
+        "taskId": "task-12",
+        "type": "CREATED",
+        "timestamp": "2026-11-18T09:00:00.000Z",
+        "message": "Heavy pull routine assigned for Friday"
+      }
+    ]
+  },
+  {
+    "id": "task-13",
+    "title": "Contrast Hydrotherapy: Sauna & Cold Plunge",
+    "description": "3 rounds of 15 min dry Finnish sauna (85°C) followed by 2 min ice bath plunge (8°C). Focus on box breathing.",
+    "category": "Recovery",
+    "priority": "Medium",
+    "status": "Todo",
+    "dueDate": "2026-11-20",
+    "durationMinutes": 60,
+    "targetCalories": 180,
+    "createdAt": "2026-11-17T11:00:00.000Z",
+    "updatedAt": "2026-11-17T11:00:00.000Z",
+    "activityTimeline": [
+      {
+        "id": "act-13-1",
+        "taskId": "task-13",
+        "type": "CREATED",
+        "timestamp": "2026-11-17T11:00:00.000Z",
+        "message": "Spa recovery slot booked"
+      }
+    ]
+  },
+  {
+    "id": "task-14",
+    "title": "Weekend Trail Run: 10km Elevation Challenge",
+    "description": "Ascend green ridge trail (+350m elevation gain). Bring hydration vest and energy chews.",
+    "category": "Cardio",
+    "priority": "High",
+    "status": "Todo",
+    "dueDate": "2026-11-21",
+    "durationMinutes": 65,
+    "targetCalories": 650,
+    "createdAt": "2026-11-16T15:30:00.000Z",
+    "updatedAt": "2026-11-16T15:30:00.000Z",
+    "activityTimeline": [
+      {
+        "id": "act-14-1",
+        "taskId": "task-14",
+        "type": "CREATED",
+        "timestamp": "2026-11-16T15:30:00.000Z",
+        "message": "Saturday mountain run planned"
+      }
+    ]
+  },
+  {
+    "id": "task-15",
+    "title": "Hatha Yoga: Spine & Shoulder Flexibility",
+    "description": "Slow deep holds focusing on cobra, downward dog, cow face pose, and child's pose.",
+    "category": "Yoga",
+    "priority": "Low",
+    "status": "Todo",
+    "dueDate": "2026-11-21",
+    "durationMinutes": 40,
+    "targetCalories": 150,
+    "createdAt": "2026-11-17T18:00:00.000Z",
+    "updatedAt": "2026-11-17T18:00:00.000Z",
+    "activityTimeline": [
+      {
+        "id": "act-15-1",
+        "taskId": "task-15",
+        "type": "CREATED",
+        "timestamp": "2026-11-17T18:00:00.000Z",
+        "message": "Flexibility routine added"
+      }
+    ]
+  },
+  {
+    "id": "task-16",
+    "title": "Track Sleep Score & Morning HRV",
+    "description": "Wear sleep band, record deep sleep duration and root-mean-square RMSSD heart rate variability.",
+    "category": "Recovery",
+    "priority": "Low",
+    "status": "Completed",
+    "dueDate": "2026-11-18",
+    "durationMinutes": 5,
+    "targetCalories": 0,
+    "createdAt": "2026-11-17T22:00:00.000Z",
+    "updatedAt": "2026-11-18T07:10:00.000Z",
+    "activityTimeline": [
+      {
+        "id": "act-16-1",
+        "taskId": "task-16",
+        "type": "CREATED",
+        "timestamp": "2026-11-17T22:00:00.000Z",
+        "message": "Sleep tracking entry created"
+      },
+      {
+        "id": "act-16-2",
+        "taskId": "task-16",
+        "type": "STATUS_CHANGED",
+        "fromStatus": "Todo",
+        "toStatus": "Completed",
+        "timestamp": "2026-11-18T07:10:00.000Z",
+        "message": "Sleep score 88, HRV 62ms"
+      }
+    ]
+  },
+  {
+    "id": "task-17",
+    "title": "Sprint Interval Training: 100m Dashes",
+    "description": "Sprint 8x 100m all-out on synthetic track with 2-minute complete walk recoveries.",
+    "category": "Cardio",
+    "priority": "High",
+    "status": "Todo",
+    "dueDate": "2026-11-22",
+    "durationMinutes": 30,
+    "targetCalories": 320,
+    "createdAt": "2026-11-18T14:00:00.000Z",
+    "updatedAt": "2026-11-18T14:00:00.000Z",
+    "activityTimeline": [
+      {
+        "id": "act-17-1",
+        "taskId": "task-17",
+        "type": "CREATED",
+        "timestamp": "2026-11-18T14:00:00.000Z",
+        "message": "High-intensity sprint workout registered"
+      }
+    ]
+  },
+  {
+    "id": "task-18",
+    "title": "Prepare Electrolyte & BCAA Mix",
+    "description": "Mix magnesium malate, sodium chloride, potassium citrate, and 10g BCAAs for the upcoming week's sessions.",
+    "category": "Nutrition",
+    "priority": "Low",
+    "status": "Completed",
+    "dueDate": "2026-11-17",
+    "durationMinutes": 10,
+    "targetCalories": 0,
+    "createdAt": "2026-11-16T19:00:00.000Z",
+    "updatedAt": "2026-11-17T18:20:00.000Z",
+    "activityTimeline": [
+      {
+        "id": "act-18-1",
+        "taskId": "task-18",
+        "type": "CREATED",
+        "timestamp": "2026-11-16T19:00:00.000Z",
+        "message": "Electrolyte prep task logged"
+      },
+      {
+        "id": "act-18-2",
+        "taskId": "task-18",
+        "type": "STATUS_CHANGED",
+        "fromStatus": "Todo",
+        "toStatus": "Completed",
+        "timestamp": "2026-11-17T18:20:00.000Z",
+        "message": "Portioned into 5 travel containers"
+      }
+    ]
+  },
+  {
+    "id": "task-19",
+    "title": "Calisthenics & Ring Dips Mastery",
+    "description": "Gymnastic rings: 4x8 dips with 2s pause at top, 4x10 ring pushups, 4x6 strict muscle-up progressions.",
+    "category": "Strength",
+    "priority": "Medium",
+    "status": "Todo",
+    "dueDate": "2026-11-23",
+    "durationMinutes": 45,
+    "targetCalories": 310,
+    "createdAt": "2026-11-18T11:00:00.000Z",
+    "updatedAt": "2026-11-18T11:00:00.000Z",
+    "activityTimeline": [
+      {
+        "id": "act-19-1",
+        "taskId": "task-19",
+        "type": "CREATED",
+        "timestamp": "2026-11-18T11:00:00.000Z",
+        "message": "Gymnastic ring workout added"
+      }
+    ]
+  },
+  {
+    "id": "task-20",
+    "title": "Yin Yoga: Lower Back & Hamstring Relief",
+    "description": "Passive floor postures held for 4-5 minutes each: caterpillar pose, dragonfly, sphinx, and reclining twist.",
+    "category": "Yoga",
+    "priority": "Low",
+    "status": "Todo",
+    "dueDate": "2026-11-23",
+    "durationMinutes": 45,
+    "targetCalories": 90,
+    "createdAt": "2026-11-18T20:00:00.000Z",
+    "updatedAt": "2026-11-18T20:00:00.000Z",
+    "activityTimeline": [
+      {
+        "id": "act-20-1",
+        "taskId": "task-20",
+        "type": "CREATED",
+        "timestamp": "2026-11-18T20:00:00.000Z",
+        "message": "Yin yoga evening session set"
+      }
+    ]
+  },
+  {
+    "id": "task-21",
+    "title": "Rowing Ergometer 5000m Benchmark",
+    "description": "5000m continuous row on Concept2. Target sub-20 minute split (1:58-2:00 / 500m pace).",
+    "category": "Cardio",
+    "priority": "High",
+    "status": "Todo",
+    "dueDate": "2026-11-24",
+    "durationMinutes": 30,
+    "targetCalories": 340,
+    "createdAt": "2026-11-19T09:30:00.000Z",
+    "updatedAt": "2026-11-19T09:30:00.000Z",
+    "activityTimeline": [
+      {
+        "id": "act-21-1",
+        "taskId": "task-21",
+        "type": "CREATED",
+        "timestamp": "2026-11-19T09:30:00.000Z",
+        "message": "5k benchmark row planned"
+      }
+    ]
+  },
+  {
+    "id": "task-22",
+    "title": "Gym Bag & Gear Maintenance",
+    "description": "Wash lifting wraps, sanitize lifting belt, clean shaker bottles, and air out running shoes.",
+    "category": "Other",
+    "priority": "Low",
+    "status": "Todo",
+    "dueDate": "2026-11-24",
+    "durationMinutes": 20,
+    "targetCalories": 0,
+    "createdAt": "2026-11-19T10:00:00.000Z",
+    "updatedAt": "2026-11-19T10:00:00.000Z",
+    "activityTimeline": [
+      {
+        "id": "act-22-1",
+        "taskId": "task-22",
+        "type": "CREATED",
+        "timestamp": "2026-11-19T10:00:00.000Z",
+        "message": "Gear maintenance reminder added"
+      }
+    ]
+  },
+  {
+    "id": "task-23",
+    "title": "Leg Day 2: Romanian Deadlifts & Front Squats",
+    "description": "Front squats 4x6, Barbell RDLs 4x8, Leg press dropset 3x15, Standing calf raises 4x20.",
+    "category": "Strength",
+    "priority": "High",
+    "status": "Todo",
+    "dueDate": "2026-11-25",
+    "durationMinutes": 60,
+    "targetCalories": 460,
+    "createdAt": "2026-11-19T10:30:00.000Z",
+    "updatedAt": "2026-11-19T10:30:00.000Z",
+    "activityTimeline": [
+      {
+        "id": "act-23-1",
+        "taskId": "task-23",
+        "type": "CREATED",
+        "timestamp": "2026-11-19T10:30:00.000Z",
+        "message": "Secondary leg day planned"
+      }
+    ]
+  },
+  {
+    "id": "task-24",
+    "title": "Anti-Inflammatory Turmeric & Ginger Golden Milk",
+    "description": "Simmer almond milk, raw turmeric root, ginger, black pepper, cinnamon, and half teaspoon coconut oil before bed.",
+    "category": "Nutrition",
+    "priority": "Low",
+    "status": "Completed",
+    "dueDate": "2026-11-15",
+    "durationMinutes": 15,
+    "targetCalories": 80,
+    "createdAt": "2026-11-15T19:00:00.000Z",
+    "updatedAt": "2026-11-15T21:45:00.000Z",
+    "activityTimeline": [
+      {
+        "id": "act-24-1",
+        "taskId": "task-24",
+        "type": "CREATED",
+        "timestamp": "2026-11-15T19:00:00.000Z",
+        "message": "Golden milk prep scheduled"
+      },
+      {
+        "id": "act-24-2",
+        "taskId": "task-24",
+        "type": "STATUS_CHANGED",
+        "fromStatus": "Todo",
+        "toStatus": "Completed",
+        "timestamp": "2026-11-15T21:45:00.000Z",
+        "message": "Drank and ready for deep sleep"
+      }
+    ]
+  },
+  {
+    "id": "task-25",
+    "title": "30-Minute Outdoor Sunlight Walk",
+    "description": "Brisk morning walk within 45 minutes of waking to set circadian rhythm and improve mood.",
+    "category": "Recovery",
+    "priority": "Medium",
+    "status": "Completed",
+    "dueDate": "2026-11-16",
+    "durationMinutes": 30,
+    "targetCalories": 160,
+    "createdAt": "2026-11-15T20:00:00.000Z",
+    "updatedAt": "2026-11-16T08:35:00.000Z",
+    "activityTimeline": [
+      {
+        "id": "act-25-1",
+        "taskId": "task-25",
+        "type": "CREATED",
+        "timestamp": "2026-11-15T20:00:00.000Z",
+        "message": "Circadian sunlight walk scheduled"
+      },
+      {
+        "id": "act-25-2",
+        "taskId": "task-25",
+        "type": "STATUS_CHANGED",
+        "fromStatus": "Todo",
+        "toStatus": "Completed",
+        "timestamp": "2026-11-16T08:35:00.000Z",
+        "message": "Walked 3.1km in direct sunlight"
+      }
+    ]
+  },
+  {
+    "id": "task-26",
+    "title": "Shoulder Prehab: Face Pulls & External Rotations",
+    "description": "Resistance band dislocates, face pulls with 2s hold at peak contraction 4x15, Powell raises 3x12.",
+    "category": "Recovery",
+    "priority": "Low",
+    "status": "Todo",
+    "dueDate": "2026-11-26",
+    "durationMinutes": 20,
+    "targetCalories": 70,
+    "createdAt": "2026-11-19T11:00:00.000Z",
+    "updatedAt": "2026-11-19T11:00:00.000Z",
+    "activityTimeline": [
+      {
+        "id": "act-26-1",
+        "taskId": "task-26",
+        "type": "CREATED",
+        "timestamp": "2026-11-19T11:00:00.000Z",
+        "message": "Shoulder prehab scheduled"
+      }
+    ]
+  },
+  {
+    "id": "task-27",
+    "title": "Swimming: 1000m Freestyle & Kick Drills",
+    "description": "200m warm-up, 4x 100m freestyle at 75% effort, 200m flutter kick with kickboard, 200m cool-down backstroke.",
+    "category": "Cardio",
+    "priority": "Medium",
+    "status": "Todo",
+    "dueDate": "2026-11-25",
+    "durationMinutes": 40,
+    "targetCalories": 350,
+    "createdAt": "2026-11-19T11:15:00.000Z",
+    "updatedAt": "2026-11-19T11:15:00.000Z",
+    "activityTimeline": [
+      {
+        "id": "act-27-1",
+        "taskId": "task-27",
+        "type": "CREATED",
+        "timestamp": "2026-11-19T11:15:00.000Z",
+        "message": "Pool session booked"
+      }
+    ]
+  },
+  {
+    "id": "task-28",
+    "title": "Measure Body Fat % & Waist Circumference",
+    "description": "Take 3-site caliper measurement (chest, abdomen, thigh) and tape measurement at navel level.",
+    "category": "Other",
+    "priority": "Medium",
+    "status": "Todo",
+    "dueDate": "2026-11-22",
+    "durationMinutes": 15,
+    "targetCalories": 0,
+    "createdAt": "2026-11-19T11:30:00.000Z",
+    "updatedAt": "2026-11-19T11:30:00.000Z",
+    "activityTimeline": [
+      {
+        "id": "act-28-1",
+        "taskId": "task-28",
+        "type": "CREATED",
+        "timestamp": "2026-11-19T11:30:00.000Z",
+        "message": "Bi-weekly body metrics measurement added"
+      }
+    ]
+  }
+]
+
